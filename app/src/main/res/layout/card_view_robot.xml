@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView_robot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/colour_darkBlue"
+    app:cardElevation="5dp"
+    android:layout_margin="9dp"
+    app:contentPadding="4dp"
+    app:cardCornerRadius="10dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/robotImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/robotModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/robotImg"
+            android:text="Model"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/robotType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/robotModel"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/robotImg"
+            android:text="Type"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/robotCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/robotType"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/robotImg"
+            android:text="Company"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/robotPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/robotCompany"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/robotImg"
+            android:text="Price"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold">
+        </TextView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

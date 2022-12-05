@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "613640239210",
+    "project_id": "robotshop-3fb1a",
+    "storage_bucket": "robotshop-3fb1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613640239210:android:7c5e057c51dcdef11cb213",
+        "android_client_info": {
+          "package_name": "com.example.toolshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613640239210-julq04igvcv6iouh5fbnqshrpm4ggje9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5-xRu9WFmDvqh3avuELbHZ5Dkspxv5XI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613640239210-julq04igvcv6iouh5fbnqshrpm4ggje9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

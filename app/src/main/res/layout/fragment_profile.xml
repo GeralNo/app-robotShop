@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/profilefragment"
+    android:background="@color/colour_darkBlue"
+    tools:context=".Views.ui.fragments.ProfileFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:background="#06BED8">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="41dp"
+                app:srcCompat="@drawable/perfil">
+            </ImageView>
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="115dp"
+                android:gravity="center"
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:textSize="40sp"
+                android:textStyle="bold">
+            </TextView>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:id="@+id/photoProfile"
+            android:layout_gravity="center"
+            android:src="@drawable/perfil"
+            />
+
+        <Button
+            android:id="@+id/cameraProfile"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/stylo_borde_full"
+            android:text="Camera"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/galleryProfile"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="-48dp"
+            android:background="@drawable/stylo_borde_full"
+            android:text="Gallery"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Name:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/stylo_borde_editext"/>
+
+        <EditText
+            android:id="@+id/nameProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stylo_borde_editext"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="E-mail:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/stylo_borde_editext"/>
+
+        <EditText
+            android:id="@+id/emailProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stylo_borde_editext"
+            android:text="E-mail"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Birth date:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/stylo_borde_editext"/>
+
+        <EditText
+            android:id="@+id/birthProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stylo_borde_editext"
+            android:inputType="date"
+            android:text="Birth date"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Password:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/stylo_borde_editext" />
+
+        <EditText
+            android:id="@+id/passwordProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stylo_borde_editext"
+            android:inputType="date"
+            android:text="Password"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

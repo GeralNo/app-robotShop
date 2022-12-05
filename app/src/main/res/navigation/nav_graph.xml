@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.toolshop.Views.ui.fragments.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_robotsFragment"
+            app:destination="@id/robotsFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_shoppingFragment"
+            app:destination="@id/shoppingFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_favouritesFragment"
+            app:destination="@id/favouritesFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_shippingFragment"
+            app:destination="@id/shippingFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_assistanceFragment"
+            app:destination="@id/assistanceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/robotsFragment"
+        android:name="com.example.toolshop.Views.ui.fragments.RobotsFragment"
+        android:label="fragment_robots"
+        tools:layout="@layout/fragment_robots" />
+    <fragment
+        android:id="@+id/shoppingFragment"
+        android:name="com.example.toolshop.Views.ui.fragments.ShoppingFragment"
+        android:label="fragment_shopping"
+        tools:layout="@layout/fragment_shopping" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.toolshop.Views.ui.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.example.toolshop.Views.ui.fragments.FavouritesFragment"
+        android:label="fragment_favourites"
+        tools:layout="@layout/fragment_favourites" />
+    <fragment
+        android:id="@+id/shippingFragment"
+        android:name="com.example.toolshop.Views.ui.fragments.ShippingFragment"
+        android:label="fragment_shipping"
+        tools:layout="@layout/fragment_shipping" />
+    <fragment
+        android:id="@+id/assistanceFragment"
+        android:name="com.example.toolshop.Views.ui.fragments.AssistanceFragment"
+        android:label="fragment_assistance"
+        tools:layout="@layout/fragment_assistance" />
+</navigation>

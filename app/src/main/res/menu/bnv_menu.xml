@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navHome"
+        android:title="Home"
+        android:icon="@drawable/home_btn"
+        />
+
+    <item
+        android:id="@+id/navSearch"
+        android:title="Search"
+        android:icon="@drawable/search_btn"
+        />
+
+    <item
+        android:id="@+id/navShopping"
+        android:title="Buy"
+        android:icon="@drawable/shopping_btn"
+        />
+
+    <item
+        android:id="@+id/navSettings"
+        android:title="Settings"
+        android:icon="@drawable/settings_btn"
+        />
+
+
+</menu>
